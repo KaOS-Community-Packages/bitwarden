@@ -12,8 +12,6 @@ md5sums=('3cae9d3eaa9550e00ac419383d8bfd9d')
 
 package() {
 	bsdtar -xf data.tar.xz -C "${pkgdir}/" 
-	mkdir -p ${pkgdir}/usr/bin
-	ln -s ${pkgdir}/opt/Bitwarden/bitwarden ${pkgdir}/usr/bin/
 	#Correct rights
 	chmod 4755 "${pkgdir}/opt/Bitwarden/chrome-sandbox"
 }
