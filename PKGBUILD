@@ -1,5 +1,5 @@
 pkgname=bitwarden
-pkgver=1.27.1
+pkgver=1.28.2
 pkgrel=1
 pkgdesc='Open source password management solutions for individuals, teams, and business organizations.'
 arch=('x86_64')
@@ -8,7 +8,7 @@ depends=()
 license=('GPL-3')
 options=('!strip' '!emptydirs')
 source=("https://github.com/bitwarden/desktop/releases/download/v${pkgver}/Bitwarden-${pkgver}-amd64.deb")
-sha512sums=('92a6a5d3d64a17ddf2b742d9328adf27566da466c9c4d22fff910eb9dabeda77f65fad07424e6abc8c4cace04c365ada84588d05270a5cf615eda36a5741e81c')
+sha512sums=('7538565c55638d7d416a3a03f4f579b5cc5cc23d11b8f1b637616c3860415f81066e2e344752c5cbe445ffe0523854cff3a06b589b03185f0b58872a81f7073b')
 
 package() {
 	bsdtar -xf data.tar.xz -C "${pkgdir}/" 
