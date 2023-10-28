@@ -2,7 +2,7 @@
 
 ### [HOME](https://bitwarden.com) | [SOURCE](https://github.com/bitwarden/clients)
 
-### NOTE: Bitwarden Client (Bitwarden Desktop) does not run well on KaOS, but its launching desktop icon and the application as such are usable - expect bug popups . . .
+#### ***NOTE: Bitwarden Client (Bitwarden Desktop) does not run well on KaOS, but its launching desktop icon and the application as such are usable - expect bug popups . . .***
 
 Open source password management solution for individuals, teams, and business organizations.
 
